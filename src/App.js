@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { takeLatest } from 'redux-saga/effects';
+
 class App extends Component {
   render() {
     return (
